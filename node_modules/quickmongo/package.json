@@ -1,0 +1,57 @@
+{
+  "name": "quickmongo",
+  "version": "3.0.2",
+  "description": "Quick mongodb wrapper for beginners.",
+  "main": "index.js",
+  "types": "typings/index.d.ts",
+  "exports": {
+    ".": [
+      {
+        "require": "./index.js",
+        "import": "./esm/index.mjs"
+      },
+      "./index.js"
+    ],
+    "./esm": "./esm/index.mjs"
+  },
+  "scripts": {
+    "docs": "docgen --source src --custom docs/index.yml --output docs/docs.json",
+    "docs:test": "docgen --source src --custom docs/index.yml",
+    "test": "cd test && node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevSnowflake/quickmongo.git"
+  },
+  "author": "Snowflake107",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/DevSnowflake/quickmongo/issues"
+  },
+  "homepage": "https://quickmongo.js.org",
+  "funding": "https://www.paypal.me/devsnowflake",
+  "keywords": [
+    "db",
+    "quickmongo",
+    "mongodb",
+    "mongoose",
+    "quick.db",
+    "enmap",
+    "josh",
+    "keyv",
+    "mongo",
+    "easy-mongodb",
+    "endb"
+  ],
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "mongoose": "5.11.15"
+  },
+  "devDependencies": {
+    "discord.js-docgen": "github:discordjs/docgen"
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  }
+}

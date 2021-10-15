@@ -1,0 +1,10 @@
+{
+    "token": "",
+    "default_prefix": "",
+    "clientID": "",
+    "mongoDBURL": "",
+    "everyoneMention": true,
+    "hostedBy": true,
+    "QUEUE_LIMIT": "10",
+    "COLOR": "BLURPLE"
+}
